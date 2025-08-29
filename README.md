@@ -1,4 +1,4 @@
-# RadHARSimulator V1: Model Based FMCW Radar Human Activity Recognition Simulator
+# RadHARSimulator V1: Model-Based FMCW Radar Human Activity Recognition Simulator
 
 ## I. Introduction
 
