@@ -63,6 +63,33 @@ Fig. 3. Structure of the proposed FFT-based neural network model.
 
 ### B. Codes Explanation (Folder: FFTBasedNN)
 
-1. 
+#### 1. FFTBasedNN.m ####
+
+This MATLAB script implements the FFT-Based Recognition Model for radar human activity recognition. It loads a dataset of Doppler-Time Maps (DTM), constructs a custom neural network architecture incorporating FFT-based global filter layers, trains the model using specified options, and performs post-training analysis including visualization of accuracy/loss curves, positional embeddings, and learned global filters.
+
+**Input:** Dataset directory ('dataset/') containing subdirectories for each class with DTM images.
+
+**Output:** Trained model weights ('best_model.mat', 'final_model.mat'), console logs, 'curves.png' (training/validation curves), 'heatmaps.png' (positional embeddings), 'filter_map.png' (learned global filters).
+
+#### 2. FFTBasedNN_Improved.py ####
+
+This Python script (using PaddlePaddle) implements an improved version of the FFT-Based Recognition Model for radar human activity recognition. It defines a custom dataset class, constructs the GFNet model with global filter layers, trains the model with label smoothing and AdamW optimizer, and visualizes training curves, positional embedding heatmaps, and learned global filters.
+
+**Input:** Dataset directory ('dataset/') containing subdirectories for each class with DTM images.
+
+**Output:** Trained model weights ('best_model.pdparams', 'final_model.pdparams'), console logs, 'curves.png' (training/validation curves), 'heatmaps.png' (positional embeddings), 'filter_map.png' (learned global filters).
+
+#### 3. JoeyBG_FFTLayer.m ####
+
+This MATLAB custom deep learning layer class defines the 'JoeyBG_FFTLayer', which implements the core global filtering operation in the frequency domain. It includes forward propagation using FFT, element-wise multiplication with learnable complex weights, and IFFT, as well as a custom backward function to handle complex gradients for compatibility with MATLAB's optimizers.
+
+**Input:** Feature maps from previous layers; dimensions (Height, Width, Channels) specified during initialization.
+
+**Output:** Filtered feature maps in the spatial domain (real part only).
+
+### C. Datafiles Explanation ###
+
+Here includes the core code files for the FFT-Based Neural Network model: 'FFTBasedNN.m' (MATLAB implementation), 'FFTBasedNN_Improved.py' (Python/PaddlePaddle implementation), and 'JoeyBG_FFTLayer.m' (custom MATLAB layer for global filtering). These files enable training and visualization for radar human activity recognition tasks using DTM images. No additional example data files are provided in this context; refer to the dataset directory specified in the scripts for input images.
+
 
 
