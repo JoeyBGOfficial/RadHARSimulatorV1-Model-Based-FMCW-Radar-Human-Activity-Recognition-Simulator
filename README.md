@@ -2,7 +2,7 @@
 
 ## I. Introduction
 
-<img width="2160" height="2160" alt="RadHARSimulator_Splash_Screen" src="https://github.com/user-attachments/assets/3eaab6ec-d5e6-4721-b7f1-c3c9d8724483" />
+![RadHARSimulator_Splash_Screen](https://github.com/user-attachments/assets/18dcaaab-0d71-4fc6-9c33-1a26986dd447)
 Fig. 1. Splash screen of RadHARSimulator V1.
 
 ### Write Sth. Upfront:
