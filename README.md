@@ -107,4 +107,4 @@ Last but not least, hope that my work will bring positive contributions to the o
 
 | Version | Release Date | Description |
 | ----------- | ----------- | ----------- |
-| V1.0 | 2025.09.08 | The earliest version of the simulator. |
+| V1.0 | 2025.09.08 | The very version of the simulator. |
