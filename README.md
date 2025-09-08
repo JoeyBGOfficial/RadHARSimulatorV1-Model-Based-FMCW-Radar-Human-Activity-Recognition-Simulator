@@ -37,5 +37,7 @@ Fig. 2. The software interface of RadHARSimulator V1.
 
 Follow the steps for installing the simulator.
 
-1. Download the installation file for the corresponding version.
-2. 
+1. Download the installation .exe file for the corresponding version.
+2. Run .exe file.
+3. After the installation package initializes, proceed to the introduction page and select “Next.”<img width="1690" height="1250" alt="image" src="https://github.com/user-attachments/assets/20b6e746-9042-4b04-915e-dfef0bb24336" />
+
