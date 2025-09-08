@@ -47,6 +47,13 @@ Follow the steps for installing the simulator.
 
 Fig. 2. Software interface of the proposed simulator.
 
+After running the launch botton, you will see the interface of the software. Hovering the mouse over the corresponding parameter box displays an explanation of the parameter to be entered and its unit. After filling in the parameters, switch the “off” button to “on” to start the simulation. Upon simulation completion, the parameters, echo matrix, and various images will automatically pop up.
+
+You can also access the software manual by tapping the “Instruction of the Software” button.
+
+## IV. About the Network Model
+
+
 
 
 
