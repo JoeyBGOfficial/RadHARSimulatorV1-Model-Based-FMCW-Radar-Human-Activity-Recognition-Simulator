@@ -29,7 +29,9 @@ Fig. 2. The software interface of RadHARSimulator V1.
 
 [1]
 
-**Notes:**
+### Notes:
 
 **This simulator is currently available for installation only. If you require access to the source code, please contact the author to obtain permission.**
+
+## II. How to Install
 
