@@ -35,3 +35,6 @@ Fig. 2. The software interface of RadHARSimulator V1.
 
 ## II. How to Install
 
+Follow the steps for installing the simulator.
+
+1. 
