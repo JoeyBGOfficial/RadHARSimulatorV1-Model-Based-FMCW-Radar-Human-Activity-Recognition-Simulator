@@ -15,3 +15,14 @@ My software has not undergone extensive testing by a large number of users. Ther
 
 ### Basic Information:
 
+The V1 version of radar-based human activity recognition simulator (RadHARSimulator). This software provides a streamlined end-to-end simulation and analysis pipeline for FMCW radar human activity recognition. 12 activities, wall target, and all parameters of both radar system and human kinematic can be adjustable.
+
+![Software_Interface](https://github.com/user-attachments/assets/93a5c747-6d71-4734-8c6a-d51a7510acef)
+
+Fig. 2. The software interface of RadHARSimulator V1.
+
+**My Email:** JoeyBG@126.com;
+
+**Abstract:** Radar-based human activity recognition (HAR) is a pivotal research area for applications requiring non-invasive monitoring. However, the acquisition of diverse and high-fidelity radar datasets for robust algorithm development remains a significant challenge. To overcome this bottleneck, a model-based frequency-modulated continuous wave (FMCW) radar HAR simulator is developed. The simulator integrates an anthropometrically scaled $13$-scatterer kinematic model to simulate $12$ distinct activities. The FMCW radar echo model is employed, which incorporates dynamic radar cross-section (RCS), free-space or through-the-wall propagation, and a calibrated noise floor to ensure signal fidelity. The simulated raw data is then processed through a complete pipeline, including moving target indication (MTI), bulk Doppler compensation, and Savitzky-Golay denoising, culminating in the generation of high-resolution range-time map (RTM) and Doppler-time maps (DTMs) via both short-time Fourier transform (STFT) and Fourier synchrosqueezed transform (FSST). Finally, a novel neural network method is proposed to validate the effectiveness of the radar HAR. Numerical experiments demonstrate that the simulator successfully generates high-fidelity and distinct micro-Doppler signature, which provides a valuable tool for radar HAR algorithm design and validation.
+
+
