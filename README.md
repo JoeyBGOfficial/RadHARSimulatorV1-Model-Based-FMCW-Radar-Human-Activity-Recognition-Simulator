@@ -37,4 +37,5 @@ Fig. 2. The software interface of RadHARSimulator V1.
 
 Follow the steps for installing the simulator.
 
-1. 
+1. Download the installation file for the corresponding version.
+2. 
