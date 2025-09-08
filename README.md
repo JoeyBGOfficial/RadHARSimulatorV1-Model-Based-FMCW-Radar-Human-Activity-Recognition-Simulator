@@ -53,7 +53,16 @@ You can also access the software manual by tapping the “Instruction of the Sof
 
 ## IV. About the Network Model
 
+### A. Theory in Simple
 
+For the task of radar-based HAR from DTMs, a novel neural network architecture is designed shown in Fig. 3. The core principle of this design is the replacement of the computationally intensive self-attention mechanisms commonly found in ViT with FFT-based global filter module. This module is engineered to facilitate the exchange of information across all spatial locations of the feature maps by operating in the frequency domain. The architecture is constructed to improve training stability and lightweight performance.
 
+![FFTBasedNN](https://github.com/user-attachments/assets/8685098e-6d8a-4014-8b01-666a2ec88e6b)
+
+Fig. 3. Structure of the proposed FFT-based neural network model.
+
+### B. Codes Explanation (Folder: FFTBasedNN)
+
+1. 
 
 
