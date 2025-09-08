@@ -105,7 +105,6 @@ Last but not least, hope that my work will bring positive contributions to the o
 
 ## VI. Version Management ##
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Version | Release Date | Description |
+| ----------- | ----------- | ----------- |
+| V1.0 | 2025.09.08 | The earliest version of the simulator. |
