@@ -102,3 +102,10 @@ Store the image datasets for training and validation in the FFTBasedNN/dataset f
 **(4) Right Issues: ⭐The project is limited to learning purposes only. All the code of the simulator is my own original. Any use or interpretation without authorized by me is not allowed!⭐**
 
 Last but not least, hope that my work will bring positive contributions to the open source community in the filed of radar signal processing.
+
+## VI. Version Management ##
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
