@@ -87,9 +87,18 @@ This MATLAB custom deep learning layer class defines the 'JoeyBG_FFTLayer', whic
 
 **Output:** Filtered feature maps in the spatial domain (real part only).
 
-### C. Datafiles Explanation ###
+### C. Datafiles Explanation (Folder: FFTBasedNN/dataset) ###
 
-Here includes the core code files for the FFT-Based Neural Network model: 'FFTBasedNN.m' (MATLAB implementation), 'FFTBasedNN_Improved.py' (Python/PaddlePaddle implementation), and 'JoeyBG_FFTLayer.m' (custom MATLAB layer for global filtering). These files enable training and visualization for radar human activity recognition tasks using DTM images. No additional example data files are provided in this context; refer to the dataset directory specified in the scripts for input images.
+Store the image datasets for training and validation in the FFTBasedNN/dataset folder. Subfolders should be named after activity categories, with images placed directly inside each subfolder. This setup ensures the code runs correctly.
 
+## V. SOME THINGS TO NOTE ##
 
+**(1) Reproducibility Issues:** The network model receives image inputs in the form of three-channel RGB images. 
 
+**(2) Environment Issues:** The project consists of both MATLAB and Python code. The recommended MATLAB version is R2025a and above, and the recommended Python version is 3.7 and above. The program is executed by the GPU environment.
+
+**(3) Algorithm Design Issues:** The simulation software only supports MATLAB Runtime R2025a. Ensure that the support libraries are installed correctly. Within the network, the Body Block is repeated three times, which increases the number of parameters and the computational load during forward inference but enhances feature extraction performance. To accelerate network iteration, reducing the number of blocks to two or even one remains viable.
+
+**(4) Right Issues: ⭐The project is limited to learning purposes only. All the code of the simulator is my own original. Any use or interpretation without authorized by me is not allowed!⭐**
+
+Last but not least, hope that my work will bring positive contributions to the open source community in the filed of radar signal processing.
