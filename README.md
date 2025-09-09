@@ -7,6 +7,8 @@ Fig. 1. Splash screen of RadHARSimulator V1.
 
 ### Write Sth. Upfront:
 
+The paper of this simulator can be found here: https://arxiv.org/abs/2509.06751.
+
 From the very beginning of my research, I had planned to develop simulation software. This simulator consumed nearly a full year of my spare time. It involved countless hours of grueling debugging, but thankfully, I persevered and successfully made it.
 
 I would like to thank my mentors for the platform they have provided me. I would also like to thank my fellow Xiaolong Sun and junior mate Jiarong Zhao. It was their encouragement that kept me going and enabled me to complete this work.
