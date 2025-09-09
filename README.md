@@ -23,7 +23,7 @@ The V1 version of radar-based human activity recognition simulator (RadHARSimula
 
 **Corresponding Papers:**
 
-[1] W. Gao, “RadHARSimulator V1: Model-Based FMCW Radar Human Activity Recognition Simulator,” arXiv Preprint, Sep. 2025, doi: 10.48550/arXiv.2509.06751.
+[1] W. Gao, “RadHARSimulator V1: Model-Based FMCW Radar Human Activity Recognition Simulator,” \emph{arXiv Preprint}, Sep. 2025, doi: 10.48550/arXiv.2509.06751.
 
 ### Notes:
 
