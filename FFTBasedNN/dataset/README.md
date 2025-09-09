@@ -1,4 +1,4 @@
-## IV. About the Network Model
+## IV. ABOUT THE NETWORK MODEL
 
 ### A. Theory in Simple
 
@@ -37,3 +37,4 @@ This MATLAB custom deep learning layer class defines the 'JoeyBG_FFTLayer', whic
 ### C. Datafiles Explanation (Folder: FFTBasedNN/dataset) ###
 
 Store the image datasets for training and validation in the FFTBasedNN/dataset folder. Subfolders should be named after activity categories, with images placed directly inside each subfolder. This setup ensures the code runs correctly.
+
