@@ -1,4 +1,4 @@
-## IV. About the Network Model
+## IV. ABOUT THE NETWORK MODEL
 
 ### A. Theory in Simple
 
