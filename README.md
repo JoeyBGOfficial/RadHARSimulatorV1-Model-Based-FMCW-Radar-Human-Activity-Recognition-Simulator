@@ -107,6 +107,6 @@ Last but not least, hope that my work will bring positive contributions to the o
 
 ## VI. VERSION MANAGEMENT ##
 
-| Version | Release Date | Description |
-| ----------- | ----------- | ----------- |
-| V1.0 | 2025.09.08 | The very first version of the simulator. |
+| Version | Release Date | Supporting Package | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| V1.0 | 2025.09.08 | MATLAB Runtime R2025a | The very first version of the simulator. |
